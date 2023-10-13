@@ -1,0 +1,26 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "1. TS React App by Vite\r 2. Git Repo via VS code\r    1. create github acct\r    2. connect VS code to github\r    3. publish repo\r 3. React-Bootstrap\r 4. Page routing (react-router-dom)\r 5. initialize backend\r 6. config ts (tsconfig.json --> npm i --save-dev typescript ts-node-dev)\r 7. set up tsconfig\r 8. config eslint (.eslintrc.js)\r 9. .gitignore\r 10. create server (npm i express)\r 11. install axios and config @ main.tsx & HomePage\r 12. install cors\r 13. react helmet\r 14. react query and devtools (transtack)\r 15. productHook\r 16. productDetailsPage component\r 17. light/dark mode\r 18. mongoDB set up\r 19. product model (tsconfig -> experimental decorators)\r 20. add to cart\r 21. react-toastify, useNavigate, react-router-bootstrap\r 22. render cartPage\r 23. removeItemHandler from cart\r 24. userSchema, bcrypt, declare namespace Express(Request), jwt\r 25. signin page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\"  \"npm run dev --prefix frontend\" ",
+    "build": "cd backend && npm install && npm run build  && cd ../frontend && npm install && npm run build",
+    "start": "TG_ALLOW_MIXED=ALLOW  node backend/build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roy8071793/Zellany.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roy8071793/Zellany/issues"
+  },
+  "homepage": "https://github.com/roy8071793/Zellany#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
